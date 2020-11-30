@@ -1,0 +1,27 @@
+.nav-container img {
+	max-width: 150px;
+}
+.logout-btn {
+	background-color: rgb(255, 41, 41);
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+.logout-btn:focus {
+	outline: none;
+	background-color: rgb(255, 94, 94);
+}
+.navbar-expand .navbar-nav {
+	flex-direction: row;
+	align-items: center;
+}
+.search-icon:hover {
+	cursor: pointer;
+}
+.search-user {
+	color: black;
+}
+.search-user:hover {
+	color: black;
+	text-decoration: none;
+}

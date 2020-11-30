@@ -1,0 +1,42 @@
+.new-post {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 600px;
+	margin: 1rem auto;
+}
+.new-post h3 {
+	padding: 0.5rem;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+.form input {
+	padding: 0.5rem;
+	margin: 1rem;
+}
+.form input[type='file'] {
+	max-width: 250px;
+}
+.upload-btn {
+	max-width: 100px;
+	margin: 1rem;
+}
+.uploading-btn {
+	max-width: 100px;
+	margin: 1rem;
+}
+.err-msg {
+	padding: 0.5rem;
+	text-align: center;
+	color: red;
+}
+.success-msg {
+	padding: 0.5rem;
+	text-align: center;
+	color: green;
+}

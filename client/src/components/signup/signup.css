@@ -1,0 +1,95 @@
+.signup-container {
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.logo-word {
+	width: 100%;
+	text-align: center;
+}
+.logo-word img {
+	width: 50%;
+	margin-bottom: 1.5rem;
+}
+.logo-word h5 {
+	color: rgb(138, 138, 138);
+	padding: 0.5rem;
+}
+.signup-form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin: 0.5rem;
+	padding: 2rem;
+	border: 1px solid rgb(214, 214, 214);
+	position: relative;
+}
+.signup-form input,
+button {
+	margin: 0.5rem;
+	height: 2.5rem;
+	padding: 0.5rem;
+}
+.signup-form input {
+	border: 1px solid rgb(214, 214, 214);
+	border-radius: 10px;
+	font-size: small;
+}
+.signup-form input:focus {
+	outline: none;
+	border: 1px solid rgb(163, 163, 163);
+	border-radius: 10px;
+}
+.signup-form button {
+	background-color: rgb(109, 172, 255);
+	border-radius: 10px;
+	border: none;
+	color: white;
+	font-weight: bold;
+	margin: 0.5rem 0 0 0;
+}
+.signup-form button:focus {
+	outline: none;
+	background-color: rgb(149, 194, 251);
+}
+.exist-account {
+	border: 1px solid rgb(214, 214, 214);
+	max-width: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+}
+.exist-account h5 {
+	font-weight: 400;
+	font-size: 1.1rem;
+	padding: 0.5rem;
+}
+.error-msg {
+	padding: 1rem 0 0 0;
+}
+.success-msg {
+	padding: 1rem 0 0 0;
+}
+.upload-dp {
+	width: 60px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(214, 214, 214);
+	height: 60px;
+	border-radius: 50%;
+	border: 1px dotted rgb(138, 138, 138);
+}
+.choose-img {
+	font-size: 50px;
+	padding: 0.5rem 0 0 0;
+	color: rgb(138, 138, 138);
+}
+.choose-img:hover{
+	cursor: pointer;
+}

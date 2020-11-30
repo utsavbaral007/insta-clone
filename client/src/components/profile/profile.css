@@ -1,0 +1,59 @@
+.profile-container {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 900px;
+}
+.user-description {
+	display: flex;
+	justify-content: space-around;
+	margin: 1rem;
+	padding: 2rem;
+	border-bottom: 1px solid rgb(150, 150, 150);
+}
+.profile-image {
+	margin-right: 1rem;
+	position: relative;
+}
+.profile-image img {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+}
+.profile-image .change-pic {
+	position: absolute;
+	border: none;
+	background: none;
+	top: 40%;
+	transition: 0.5s ease;
+	opacity: 0;
+	left: 2.5rem;
+	padding: 0.5rem;
+	color: white;
+	background-color: gray;
+	border-radius: 10px;
+}
+.profile-image:hover .change-pic {
+	cursor: pointer;
+	opacity: 1;
+}
+.profile-description {
+	width: 70%;
+}
+.profile-description .user-stats {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.user-stats h5 {
+	margin: 0.5rem 0.5rem 0.5rem 0;
+	padding: 0.5rem 0.5rem 0.5rem 0;
+}
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.gallery .item {
+	width: 30% !important;
+	margin-bottom: 3rem;
+}

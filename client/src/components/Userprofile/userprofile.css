@@ -1,0 +1,63 @@
+.profile-container {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 900px;
+}
+.user-description {
+	display: flex;
+	justify-content: space-around;
+	margin: 1rem;
+	padding: 2rem;
+	border-bottom: 1px solid rgb(150, 150, 150);
+}
+.profile-image {
+	margin-right: 1rem;
+}
+.profile-image img {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+}
+.profile-description {
+	width: 70%;
+}
+.profile-description .user-stats {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+.user-stats h5 {
+	margin: 0.5rem 0.5rem 0.5rem 0;
+	padding: 0.5rem 0.5rem 0.5rem 0;
+}
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.gallery .item {
+	width: 30% !important;
+	margin-bottom: 3rem;
+}
+.follow-btn {
+	text-align: center;
+	background-color: #1ea1f7;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+.follow-btn:focus {
+	outline: none;
+	background-color: #78c6fa;
+}
+.unfollow-btn {
+	text-align: center;
+	background-color: #ff2929;
+	color: white;
+	border-radius: 10px;
+	border: none;
+}
+.unfollow-btn:focus {
+	outline: none;
+	background-color: #fa4c4c;
+}
